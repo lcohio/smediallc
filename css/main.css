@@ -1,0 +1,196 @@
+/* Base */
+
+body {
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 95%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Navbar */
+
+/* header {
+    background: #406ce5;
+    color: #EBEBD3;
+    padding: 1.3em 0;
+    position: relative;
+}
+
+header::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.logo {
+    float: left;
+    margin: 0;
+    text-transform: uppercase;
+
+}
+
+.logo span {
+    font-weight: 300;
+    text-transform: lowercase;
+}
+
+.site-nav {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: #464655;
+    clip-path: circle(0px at top right);
+    transition: clip-path ease-in-out 700ms;
+    z-index: 1;
+}
+
+.site-nav--open {
+    clip-path: circle(250% at top right);
+    display: block;
+}
+
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.site-nav li {
+    border-bottom: 1px solid #575766;
+}
+
+.site-nav li:last-child {
+    border-bottom: none;
+}
+
+.site-nav a {
+    color: #EBEBD3;
+    display: block;
+    padding: 2em 4em 2em 1.5em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  background: #edbc61;
+  color: #000000;
+}
+
+.menu-toggle {
+    padding: 1em;
+    position: absolute;
+    top: 1.5em;
+    right: 0;
+    cursor: pointer;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  content: '';
+  display: block;
+  background: #EBEBD3;
+  height: 3px;
+  width: 1.75em;
+  border-radius: 3px;
+  transition: all ease-in-out 500ms;
+}
+
+.hamburger::before {
+    transform: translateY(-6px);
+  }
+  
+.hamburger::after {
+    transform: translateY(3px);
+}
+
+.open .hamburger {
+    transform: rotate(45deg);
+  }
+  
+.open .hamburger::before {
+    opacity: 0;
+}
+  
+.open .hamburger::after {
+    transform: translateY(-3px) rotate(-90deg);
+} */
+
+/* Showcase */
+
+.showcase {
+    background-image: url('../images/showcase-galaxy.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.headline__primary {
+    color: #ffffff;
+    font-size: 4em;
+    font-weight: 300;
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    right: 0%;
+    text-decoration: underline;
+}
+
+.headline__secondary {
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: 300;
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    right: 0%;
+}
+
+/* @media (min-width: 819px) {
+  
+    .menu-toggle {
+      display: none;
+    }
+    
+    .site-nav {
+      height: auto;
+      position: relative;
+      background: transparent;
+      float: right;
+      clip-path: initial;
+      margin-top: .5em;
+    }
+    
+    .site-nav li {
+      display: inline-block;
+      border: none;
+    }
+    
+    .site-nav a {
+      padding: 0;
+      margin-left: 3em;
+    }
+    
+    .site-nav a:hover,
+    .site-nav a:focus {
+      background: transparent;
+    }
+    
+    .site-nav--icon {
+      display: none;
+    }
+    
+} */
